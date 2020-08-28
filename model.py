@@ -10,3 +10,5 @@ def prav_narobe(x):
         return 'Odgovor je pravilen'
     else:
         return 'Odgovor je napačen'
+
+        
