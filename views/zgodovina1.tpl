@@ -2,12 +2,11 @@
 
 <!DOCTYPE html>
 <html>
-
 <head>
-
   <title>Zgodovina</title>
 </head>
 <body>
+  <center>
   <form action="/zgodovina2/">
   vprasanje? <br><br>
 
@@ -18,7 +17,7 @@
 <input type="radio" name="vrednost" value="False"> napacen <br><br>
     <button type="submit">Odgovori</button>
     </form>
+    </center>
     
 </body>
-
 </html>

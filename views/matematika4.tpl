@@ -2,13 +2,12 @@
 
 <!DOCTYPE html>
 <html>
-
 <head>
-
   <title>Matematika</title>
 </head>
 <body>
-  {{skupna_vrednost}} <br><br>
+  <center>
+  {{skupna_vrednost}} <br><br><br><br><br>
   <form action="/matematika5/">
   cetrto vprašanje? <br><br>
 
@@ -18,8 +17,8 @@
 <input type="radio" name="vrednost" value="False"> odgovor3 <br>
 <input type="radio" name="vrednost" value="False"> odgovor4 <br><br>
     <button type="submit">Odgovori</button>
-    </form> 
+    </form>
+    </center> 
     
 </body>
-
 </html>

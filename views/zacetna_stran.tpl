@@ -2,16 +2,13 @@
 
 <!DOCTYPE html>
 <html>
-
 <head>
-
   <title>Kviz</title>
 </head>
 <body>
   <center>
   <h1>Kviz</h1>
   
-
   <p align="center">
     <img src="img/kviz.jpg" alt="kviz" align="center">
   <p/>
@@ -19,8 +16,8 @@
   <blockquote>
   Izberite temo:
   </blockquote>
+   
 
-    
   <form action="/matematika1/">
     <button type="submit">Matematika</button>
   </form><br>
@@ -38,7 +35,6 @@
   </form>
   </center>
 
-  </form>
   <footer>
   <p align="right">
   Mykola Shafranov

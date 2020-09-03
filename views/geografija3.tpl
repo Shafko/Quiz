@@ -3,12 +3,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Matematika</title>
+  <title>Geografija</title>
 </head>
 <body>
   <center>
   {{skupna_vrednost}} <br><br><br><br><br>
-  <form action="/matematika3/">
+  <form action="/geografija4/">
   drugo vprašanje? <br><br>
 
 

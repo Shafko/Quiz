@@ -2,9 +2,7 @@
 
 <!DOCTYPE html>
 <html>
-
 <head>
-
   <title>Matematika</title>
 </head>
 <body>
@@ -22,5 +20,4 @@
     </center>
     
 </body>
-
 </html>

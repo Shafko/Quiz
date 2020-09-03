@@ -2,7 +2,7 @@ import bottle
 import model
 
 rezultat = 0
-vrednost = 2
+vrednost = 0
 
 
 @bottle.get('/')
@@ -93,6 +93,91 @@ def zgodovina5():
     rezultat += model.stevec(vrednost)
     skupna_vrednost = model.prav_narobe(vrednost)
     return bottle.template('zgodovina5.tpl', rezultat = rezultat, skupna_vrednost = skupna_vrednost)
+
+
+@bottle.get('/geografija1/')
+def geografija1():
+    global rezultat
+    return bottle.template('geografija1.tpl', rezultat = rezultat)
+
+
+@bottle.get('/geografija2/')
+def geografija2():
+    global rezultat
+    vrednost = bottle.request.query['vrednost']
+    rezultat += model.stevec(vrednost)
+    skupna_vrednost = model.prav_narobe(vrednost)
+    return bottle.template('geografija2.tpl', rezultat = rezultat, skupna_vrednost = skupna_vrednost)
+
+
+@bottle.get('/geografija3/')
+def geografija3():
+    global rezultat
+    vrednost = bottle.request.query['vrednost']
+    rezultat += model.stevec(vrednost)
+    skupna_vrednost = model.prav_narobe(vrednost)
+    return bottle.template('geografija3.tpl', rezultat = rezultat, skupna_vrednost = skupna_vrednost)
+
+
+@bottle.get('/geografija4/')
+def geografija4():
+    global rezultat
+    vrednost = bottle.request.query['vrednost']
+    rezultat += model.stevec(vrednost)
+    skupna_vrednost = model.prav_narobe(vrednost)
+    return bottle.template('geografija4.tpl', rezultat = rezultat, skupna_vrednost = skupna_vrednost)
+
+
+@bottle.get('/geografija5/')
+def geografija5():
+    global rezultat
+    vrednost = bottle.request.query['vrednost']
+    rezultat += model.stevec(vrednost)
+    skupna_vrednost = model.prav_narobe(vrednost)
+    return bottle.template('geografija5.tpl', rezultat = rezultat, skupna_vrednost = skupna_vrednost)
+    
+
+@bottle.get('/sport1/')
+def sport1():
+    global rezultat
+    return bottle.template('sport1.tpl', rezultat = rezultat)
+
+
+@bottle.get('/sport2/')
+def sport2():
+    global rezultat
+    vrednost = bottle.request.query['vrednost']
+    rezultat += model.stevec(vrednost)
+    skupna_vrednost = model.prav_narobe(vrednost)
+    return bottle.template('sport2.tpl', rezultat = rezultat, skupna_vrednost = skupna_vrednost)
+
+
+@bottle.get('/sport3/')
+def sport3():
+    global rezultat
+    vrednost = bottle.request.query['vrednost']
+    rezultat += model.stevec(vrednost)
+    skupna_vrednost = model.prav_narobe(vrednost)
+    return bottle.template('sport3.tpl', rezultat = rezultat, skupna_vrednost = skupna_vrednost)
+
+
+@bottle.get('/sport4/')
+def sport4():
+    global rezultat
+    vrednost = bottle.request.query['vrednost']
+    rezultat += model.stevec(vrednost)
+    skupna_vrednost = model.prav_narobe(vrednost)
+    return bottle.template('sport4.tpl', rezultat = rezultat, skupna_vrednost = skupna_vrednost)
+
+
+@bottle.get('/sport5/')
+def sport5():
+    global rezultat
+    vrednost = bottle.request.query['vrednost']
+    rezultat += model.stevec(vrednost)
+    skupna_vrednost = model.prav_narobe(vrednost)
+    return bottle.template('sport5.tpl', rezultat = rezultat, skupna_vrednost = skupna_vrednost)
+
 
 @bottle.get('/konec/')
 def konec():
