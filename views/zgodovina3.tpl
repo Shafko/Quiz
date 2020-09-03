@@ -9,13 +9,13 @@
   <center>
   {{skupna_vrednost}} <br><br><br><br><br>
   <form action="/zgodovina4/">
-  vprasanje? <br><br>
+  Koliko let je trajala Peloponeška vojna? <br><br>
 
 
-<input type="radio" name="vrednost" value="False"> napacen <br>
-<input type="radio" name="vrednost" value="True"> pravilen <br>
-<input type="radio" name="vrednost" value="False"> napacen <br>
-<input type="radio" name="vrednost" value="False"> napacen <br><br>
+<input type="radio" name="vrednost" value="False"> 19 <br>
+<input type="radio" name="vrednost" value="True"> 27 <br>
+<input type="radio" name="vrednost" value="False"> 36 <br>
+<input type="radio" name="vrednost" value="False"> 43 <br><br>
     <button type="submit">Odgovori</button>
     </form>
     </center>

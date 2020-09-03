@@ -9,13 +9,13 @@
   <center>
   {{skupna_vrednost}} <br><br><br><br><br>
   <form action="/konec/">
-  peto vprašanje? <br><br>
+  Katera reprezentanca je zmagala evropsko prvenstvo v košarki leta 2013? <br><br>
 
 
-<input type="radio" name="vrednost" value="False"> odgovor1 <br>
-<input type="radio" name="vrednost" value="True"> pravilen odgovor2 <br>
-<input type="radio" name="vrednost" value="False"> odgovor3 <br>
-<input type="radio" name="vrednost" value="False"> odgovor4 <br><br>
+<input type="radio" name="vrednost" value="False"> Španija <br>
+<input type="radio" name="vrednost" value="False"> Slovenija <br>
+<input type="radio" name="vrednost" value="True"> Francija <br>
+<input type="radio" name="vrednost" value="False"> Rusija <br><br>
     <button type="submit">Odgovori</button>
     </form>
   </center>

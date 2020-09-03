@@ -9,13 +9,13 @@
   <center>
   {{skupna_vrednost}} <br><br><br><br><br>
   <form action="/konec/">
-  peto vprašanje? <br><br>
+  Koliko zveznih držav sestavlja ZDA? <br><br>
 
 
-<input type="radio" name="vrednost" value="False"> odgovor1 <br>
-<input type="radio" name="vrednost" value="True"> pravilen odgovor2 <br>
-<input type="radio" name="vrednost" value="False"> odgovor3 <br>
-<input type="radio" name="vrednost" value="False"> odgovor4 <br><br>
+<input type="radio" name="vrednost" value="False"> 48 <br>
+<input type="radio" name="vrednost" value="True"> 50 <br>
+<input type="radio" name="vrednost" value="False"> 51 <br>
+<input type="radio" name="vrednost" value="False"> 52 <br><br>
     <button type="submit">Odgovori</button>
     </form>
   </center>

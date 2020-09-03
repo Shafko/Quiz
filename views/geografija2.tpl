@@ -9,13 +9,13 @@
   <center>
   {{skupna_vrednost}} <br><br><br><br><br>
   <form action="/geografija3/">
-  drugo vprašanje? <br><br>
+  Katera od naštetih držav je največja? <br><br>
 
 
-<input type="radio" name="vrednost" value="False"> odgovor1 <br>
-<input type="radio" name="vrednost" value="True"> odgovor2 <br>
-<input type="radio" name="vrednost" value="False"> odgovor3 <br>
-<input type="radio" name="vrednost" value="False"> odgovor4 <br><br>
+<input type="radio" name="vrednost" value="False"> Švedska <br>
+<input type="radio" name="vrednost" value="False"> Francija <br>
+<input type="radio" name="vrednost" value="True"> Ukrajina <br>
+<input type="radio" name="vrednost" value="False"> Španija <br><br>
     <button type="submit">Odgovori</button>
     </form>
     </center>

@@ -9,13 +9,13 @@
   <center>
   {{skupna_vrednost}} <br><br><br><br><br>
   <form action="/sport4/">
-  drugo vprašanje? <br><br>
+  Katerega leta je Slovenija gostila evropsko prvenstvo v dvoranskem nogometu? <br><br>
 
 
-<input type="radio" name="vrednost" value="False"> odgovor1 <br>
-<input type="radio" name="vrednost" value="True"> odgovor2 <br>
-<input type="radio" name="vrednost" value="False"> odgovor3 <br>
-<input type="radio" name="vrednost" value="False"> odgovor4 <br><br>
+<input type="radio" name="vrednost" value="False"> 2016 <br>
+<input type="radio" name="vrednost" value="False"> 2017 <br>
+<input type="radio" name="vrednost" value="True"> 2018 <br>
+<input type="radio" name="vrednost" value="False"> 2019 <br><br>
     <button type="submit">Odgovori</button>
     </form>
     </center>

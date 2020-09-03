@@ -6,7 +6,7 @@
   <body>
   <center><br><br><br><br><br>
   <font size="10">
-  končni rezultat: {{rezultat}} / 5
+  Končni rezultat: {{rezultat}} / 5
   </font><br><br><br>
   
   <form action="/">

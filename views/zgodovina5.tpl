@@ -9,13 +9,13 @@
   <center>
   {{skupna_vrednost}} <br><br><br><br><br>
   <form action="/konec/">
-  peto vprašanje? <br><br>
+  Katerega leta je prvič poletelo letalo? <br><br>
 
 
-<input type="radio" name="vrednost" value="False"> odgovor1 <br>
-<input type="radio" name="vrednost" value="True"> pravilen odgovor2 <br>
-<input type="radio" name="vrednost" value="False"> odgovor3 <br>
-<input type="radio" name="vrednost" value="False"> odgovor4 <br><br>
+<input type="radio" name="vrednost" value="True"> 1903 <br>
+<input type="radio" name="vrednost" value="False"> 1915 <br>
+<input type="radio" name="vrednost" value="False"> 1937 <br>
+<input type="radio" name="vrednost" value="False"> 1938 <br><br>
     <button type="submit">Odgovori</button>
     </form>
     </center> 

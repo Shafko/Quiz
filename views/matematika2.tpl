@@ -9,13 +9,13 @@
   <center>
   {{skupna_vrednost}} <br><br><br><br><br>
   <form action="/matematika3/">
-  drugo vprašanje? <br><br>
+  Katero od naštetih števil ni praštevilo? <br><br>
 
 
-<input type="radio" name="vrednost" value="False"> odgovor1 <br>
-<input type="radio" name="vrednost" value="True"> odgovor2 <br>
-<input type="radio" name="vrednost" value="False"> odgovor3 <br>
-<input type="radio" name="vrednost" value="False"> odgovor4 <br><br>
+<input type="radio" name="vrednost" value="False"> 3 <br>
+<input type="radio" name="vrednost" value="True"> 4 <br>
+<input type="radio" name="vrednost" value="False"> 5 <br>
+<input type="radio" name="vrednost" value="False"> 7 <br><br>
     <button type="submit">Odgovori</button>
     </form>
     </center>
